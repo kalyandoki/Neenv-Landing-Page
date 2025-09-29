@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-br from-gray-900 to-black pt-16 pb-8 border-t border-gray-800 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-        <div className="absolute top-10 left-10 w-64 h-64 rounded-full bg-[#ffc107] opacity-5 blur-3xl"></div>
+        <div className="absolute top-10 left-10 w-64 h-64 rounded-full bg-[#D4A017] opacity-5 blur-3xl"></div>
         <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-[#2ECC40] opacity-5 blur-3xl"></div>
       </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
               className="flex items-center group mb-6"
             >
               <div className="relative">
-                <div className="absolute -inset-2 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] rounded-full opacity-30 blur-md group-hover:opacity-50 transition-opacity"></div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] rounded-full opacity-30 blur-md group-hover:opacity-50 transition-opacity"></div>
                 <img
                   src={NeevnLogo}
                   alt="Neenv IAS Logo"
@@ -50,28 +50,28 @@ const Footer = () => {
             {/* <div className="flex space-x-4">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#ffc107] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#D4A017] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
                 aria-label="Facebook"
               >
                 <FaFacebookF />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#ffc107] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#D4A017] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
                 aria-label="Twitter"
               >
                 <FaTwitter />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#ffc107] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#D4A017] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
                 aria-label="Instagram"
               >
                 <FaInstagram />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#ffc107] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
+                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-gradient-to-r hover:from-[#D4A017] hover:to-[#2ECC40] hover:text-black transition-all duration-300 transform hover:scale-110"
                 aria-label="YouTube"
               >
                 <FaYoutube />
@@ -79,16 +79,16 @@ const Footer = () => {
             </div> */}
             <div className="flex space-x-3">
               <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition">
-                <FaFacebookF />
+                <FaFacebookF size={22} />
               </a>
               <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white transition">
-                <FaTwitter />
+                <FaTwitter size={22} />
               </a>
               <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition">
-                <FaInstagram />
+                <FaInstagram size={22} />
               </a>
               <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition">
-                <FaYoutube />
+                <FaYoutube size={22} />
               </a>
             </div>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white flex items-center">
-              <span className="w-6 h-0.5 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] mr-3"></span>
+              <span className="w-6 h-0.5 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] mr-3"></span>
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -115,7 +115,7 @@ const Footer = () => {
                     duration={500}
                     className="text-gray-400 hover:text-white transition-colors cursor-pointer flex items-center group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-600 mr-3 group-hover:bg-gradient-to-r group-hover:from-[#ffc107] group-hover:to-[#2ECC40] transition-all"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-600 mr-3 group-hover:bg-gradient-to-r group-hover:from-[#D4A017] group-hover:to-[#2ECC40] transition-all"></span>
                     {item.name}
                   </Link>
                 </li>
@@ -126,7 +126,7 @@ const Footer = () => {
           {/* Our Courses */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white flex items-center">
-              <span className="w-6 h-0.5 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] mr-3"></span>
+              <span className="w-6 h-0.5 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] mr-3"></span>
               Our Courses
             </h3>
             <ul className="space-y-3">
@@ -134,7 +134,7 @@ const Footer = () => {
                 "GS Mentorship",
                 "Optional Mentorship",
                 "Current Affairs Program",
-                "Polity (GS) Module",
+                "Polity GS Module",
                 "Economy GS Module",
               ].map((course, index) => (
                 <li key={index}>
@@ -142,7 +142,7 @@ const Footer = () => {
                     href="#"
                     className="text-gray-400 hover:text-white transition-colors flex items-center group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-600 mr-3 group-hover:bg-gradient-to-r group-hover:from-[#ffc107] group-hover:to-[#2ECC40] transition-all"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-600 mr-3 group-hover:bg-gradient-to-r group-hover:from-[#D4A017] group-hover:to-[#2ECC40] transition-all"></span>
                     {course}
                   </a>
                 </li>
@@ -153,13 +153,13 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white flex items-center">
-              <span className="w-6 h-0.5 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] mr-3"></span>
+              <span className="w-6 h-0.5 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] mr-3"></span>
               Contact Info
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center mr-4 flex-shrink-0">
-                  <FaEnvelope className="text-[#ffc107]" />
+                  <FaEnvelope className="text-[#D4A017]" />
                 </div>
                 <a
                   href="mailto:NeenvIAS@gmail.com"
@@ -176,7 +176,7 @@ const Footer = () => {
                   href="tel:9734548688"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  9734548688
+                  +91 9734548688
                 </a>
               </li>
               <li className="flex items-start">
@@ -189,14 +189,17 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  9734548688
+                  +91 9734548688
                 </a>
               </li>
               <li className="flex items-start">
                 <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center mr-4 flex-shrink-0">
-                  <FaMapMarkerAlt className="text-[#ffc107]" />
+                  <FaMapMarkerAlt className="text-[#D4A017]" />
                 </div>
-                <span className="text-gray-400">Delhi, India</span>
+                <span className="text-gray-400">
+                  TC 39/1768 Yamuna Nagar, 2nd Street Manacaud
+                  Thiruvananthapuram – 695009 Kerala, India
+                </span>
               </li>
             </ul>
           </div>

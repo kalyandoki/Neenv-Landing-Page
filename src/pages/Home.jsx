@@ -14,7 +14,7 @@ const Home = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Faculty />
       <Courses />
       <Testimonials />

@@ -57,7 +57,7 @@ const Header = () => {
               onClick={() => setActiveLink("hero")}
             >
               <div className="relative">
-                <div className="absolute -inset-2 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] rounded-full opacity-30 blur-md group-hover:opacity-50 transition-opacity"></div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] rounded-full opacity-30 blur-md group-hover:opacity-50 transition-opacity"></div>
                 <img
                   src={NeevnLogo}
                   alt="Neenv IAS Logo"
@@ -87,13 +87,13 @@ const Header = () => {
                   onClick={closeMenu}
                   className={`px-4 py-3 font-medium md:text-lg transition-all duration-300 flex items-center cursor-pointer ${
                     activeLink === item.to
-                      ? "text-white  border-b-2 border-[#e2b63fcc]"
+                      ? "text-white  border-b-2 border-[#D4A017]"
                       : "text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg"
                   }`}
                 >
                   <span className="flex-1">{item.name}</span>
                   {/* {activeLink === item.to && (
-                    <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#ffc107] to-[#2ECC40]"></span>
+                    <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#D4A017] to-[#2ECC40]"></span>
                   )} */}
                 </Link>
               ))}
@@ -102,15 +102,14 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block flex-shrink-0">
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
+            <a
+              href="https://wa.me/919734548688"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2 bg-[#2ECC40] text-gray-900 font-bold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
               Enroll Now
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -151,28 +150,26 @@ const Header = () => {
                 onClick={closeMenu}
                 className={`px-4 py-3 rounded-lg font-medium transition-all duration-300 flex items-center ${
                   activeLink === item.to
-                    ? "text-white bg-gradient-to-r from-[#ffc107]/20 to-[#2ECC40]/20 border-l-4 border-[#ffc107]"
+                    ? "text-white bg-gradient-to-r from-[#D4A017]/20 to-[#2ECC40]/20 border-l-4 border-[#D4A017]"
                     : "text-gray-300 hover:text-white hover:bg-gray-800"
                 }`}
               >
                 <span className="flex-1">{item.name}</span>
                 {activeLink === item.to && (
-                  <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#ffc107] to-[#2ECC40]"></span>
+                  <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#D4A017] to-[#2ECC40]"></span>
                 )}
               </Link>
             ))}
 
             {/* Mobile CTA Button */}
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={closeMenu}
-              className="mt-4 px-6 py-3 bg-gradient-to-r from-[#ffc107] to-[#2ECC40] text-gray-900 font-bold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-center"
+            <a
+              href="https://wa.me/919734548688"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 px-6 py-3 bg-gradient-to-r from-[#D4A017] to-[#2ECC40] text-gray-900 font-bold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-center"
             >
               Enroll Now
-            </Link>
+            </a>
           </div>
         </div>
       </div>
