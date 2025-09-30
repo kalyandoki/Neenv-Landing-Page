@@ -160,7 +160,7 @@ const Footer = () => {
               ].map((course, index) => (
                 <li key={index}>
                   <a
-                    href="#"
+                    href="#courses"
                     className="text-gray-400 hover:text-white transition-colors flex items-center group"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-600 mr-3 group-hover:bg-gradient-to-r group-hover:from-[#D4A017] group-hover:to-[#2ECC40] transition-all"></span>
