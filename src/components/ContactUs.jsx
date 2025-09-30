@@ -239,6 +239,7 @@ const ContactUs = () => {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#D4A017]"
                   />
                   <input
@@ -247,6 +248,7 @@ const ContactUs = () => {
                     placeholder="Your Email"
                     value={formData.email}
                     onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#D4A017]"
                   />
                 </div>
@@ -257,6 +259,7 @@ const ContactUs = () => {
                   placeholder="Phone Number"
                   value={formData.phone}
                   onChange={handleChange}
+                  required
                   className="w-full mb-6 px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#D4A017]"
                 />
 
@@ -266,6 +269,7 @@ const ContactUs = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows="5"
+                  required
                   className="w-full mb-6 px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#D4A017] resize-none"
                 ></textarea>
 

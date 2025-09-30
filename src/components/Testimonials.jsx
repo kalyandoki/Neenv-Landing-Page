@@ -134,7 +134,7 @@ const Testimonials = () => {
             SUCCESS STORIES
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
-            Toppers' <span className="text-[#d4a017]">Talk</span>
+            Topper's <span className="text-[#d4a017]">Talk</span>
           </h2>
           <div className="w-40 h-1.5 bg-green-400 mx-auto rounded-full my-4"></div>
           <p className="text-gray-100 max-w-2xl mx-auto text-lg">
