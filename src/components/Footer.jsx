@@ -80,9 +80,9 @@ const Footer = () => {
             </div> */}
             <div className="flex space-x-3">
               <a
-                href="https://www.facebook.com/share/14JVZbKhEmW/"
-                target="_blank"
-                rel="noopener noreferrer"
+                // href="https://www.facebook.com/share/14JVZbKhEmW/"
+                // target="_blank"
+                // rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition"
               >
                 <FaFacebookF size={22} />
