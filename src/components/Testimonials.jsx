@@ -23,70 +23,70 @@ const Testimonials = () => {
       name: "Vasu Aggarwal",
       role: "AIR-172, JKPS 2023",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "I cannot forget those struggling days when I joined SRIAS - Regional Centre Jammu and came across a teacher, mentor & intellectual like you who did not only guide me like a teacher but also like an elder brother.",
       image: img1,
       type: "image",
     },
     {
       id: 2,
       name: "Reshma AL",
-      role: "AIR-256, UPSC 2018",
+      role: "AIR-256, UPSC 2020",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "I was new to economics. But your classes made it really interesting and easy for me. Your classes were really amazing. It gave me good foundation and clear understanding of concepts. Even in my 4th attempt before going for the interview, I revised your notes. Thank you so much sir.",
       image: img2,
       type: "image",
     },
     {
       id: 3,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Ravisankar Sharma",
+      role: "AIR-37, IFoS 2018",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "It was indeed a great experience to see how such a tough technical subject like economics was made easily understandable by Aman Sir and that provided the foundation for my preparation for Prelims and GS3 Mains.",
       image: img3,
       type: "image",
     },
     {
       id: 4,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Ipsita Datta",
+      role: "DYSP, WBCS 2017",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "Understanding business economics & market fluctuations becomes easy, all thanks to Aman Soni sir’s logical module teaching method.",
       image: img4,
       type: "image",
     },
     {
       id: 5,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Jithin Krishnan B",
+      role: "AIR-278, UPSC 2021",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "Aman Sir Masters in simplifying Economics with relatable examples and illustrations.",
       image: img5,
       type: "image",
     },
     {
       id: 6,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Divya Chandran",
+      role: "AIR-397, Civil Services 2018",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "Aman Sir's GS-3 handouts and revision of Economic Survey were very helpful in my preparation. Thank you for your guidance in GS-3.",
       image: img6,
       type: "image",
     },
     {
       id: 7,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Ashish Chugh",
+      role: "Indian Telecom Service (2014), UPSC ESE AIR-30",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "Aman sir is very dedicated and supports every hardworking student to the fullest.",
       image: img7,
       type: "image",
     },
     {
       id: 8,
-      name: "Rahul Sharma",
-      role: "AIR-45, UPSC 2023",
+      name: "Muhammad Afzal",
+      role: "AIR-599, CSE 2022",
       content:
-        "Neenv IAS has been instrumental in my success. The faculty's guidance and the comprehensive study material helped me crack the exam in my first attempt. I'm especially grateful for the answer writing development program.",
+        "Being from an engineering background, I had no prior knowledge of economics. Aman Soni Sir's classes helped me build a strong foundation. I used his notes and cleared UPSC. Thank you, sir!",
       image: img8,
       type: "image",
     },
@@ -134,7 +134,7 @@ const Testimonials = () => {
             SUCCESS STORIES
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
-            Student <span className="text-[#d4a017]">Testimonials</span>
+            Toppers' <span className="text-[#d4a017]">Talk</span>
           </h2>
           <div className="w-40 h-1.5 bg-green-400 mx-auto rounded-full my-4"></div>
           <p className="text-gray-100 max-w-2xl mx-auto text-lg">

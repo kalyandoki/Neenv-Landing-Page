@@ -45,23 +45,24 @@ const Courses = () => {
     },
     {
       id: 3,
-      title: "Current Affairs Program",
-      category: "current",
-      price: "4999/-",
-      duration: "11 Oct, 2025 - 15 August, 2026",
-      faculty: "Ravi Pathak and Aman Soni",
+      title: "DAP (Daily Answer Writing Practice)",
+      category: "gs",
+      price: "1000/-",
+      duration: "Starting Date: 13th October, 2025",
+      faculty: "",
       features: [
-        "Coverage of Topics from Jan 2025 - July 2026",
-        "4 hours of live class on Saturday and Sunday each (Total 8 hours class per week)",
-        "Program will be run in three phases.",
-        "Phase 1: 11th Oct 2025 - 1st Feb, 2026: Discussion of Contemporary Issues (Topics in news for the last 3-4 years)",
-        "Phase 2: 15 Feb, 2026 - 10 May, 2026: Discussion of only Prelims 2026 relevant topics",
-        "Phase 3: 11th Oct 2025 - 9 August, 2026: Discussion of only Mains 2026 relevant Topics",
+        "Daily Study Targets + Recommended sources for each target.",
+        "Daily Answer Writing Program",
+        "5 questions will be given daily.",
+        "2 questions will be evaluated and feedback given on the same day.",
+        "All 5 questions will be discussed the same day through online session.",
+        "Model Answers given in point form for quick revision.",
       ],
     },
+
     {
       id: 4,
-      title: "Polity (GS) Module",
+      title: "Polity GS Module",
       category: "gs",
       price: "1999/-",
       duration: "Starting Date: 13 Oct, 2025",
@@ -85,6 +86,58 @@ const Courses = () => {
         "Discussion of Pre and Mains PYQs along with the chapters",
         "140 hours of class",
         "The most comprehensive Economy Course available",
+      ],
+    },
+    {
+      id: 6,
+      title: "IPP (Intensive Prelims Practice)",
+      category: "gs",
+      price: "500/-",
+      duration: "Starting Date: 13th October, 2025",
+      faculty: "",
+      features: [
+        "Daily Study Targets+ recommended sources for each target.",
+        "Daily MCQ test of 50 ques ,followed by detailed discussion on each question.",
+        "Revision of one subject at a time.",
+      ],
+    },
+    {
+      id: 7,
+      title: "Current Affairs Program",
+      category: "current",
+      price: "4999/-",
+      duration: "11 Oct, 2025 - 15 August, 2026",
+      faculty: "Ravi Pathak and Aman Soni",
+      features: [
+        "Coverage of Topics from Jan 2025 - July 2026",
+        "4 hours of live class on Saturday and Sunday each (Total 8 hours class per week)",
+        "Program will be run in three phases.",
+        "Phase 1: 11th Oct 2025 - 1st Feb, 2026: Discussion of Contemporary Issues (Topics in news for the last 3-4 years)",
+        "Phase 2: 15 Feb, 2026 - 10 May, 2026: Discussion of only Prelims 2026 relevant topics",
+        "Phase 3: 11th Oct 2025 - 9 August, 2026: Discussion of only Mains 2026 relevant Topics",
+      ],
+    },
+    {
+      id: 8,
+      title: "Disha",
+      category: "gs",
+      price: "1000/-",
+      duration: "Starting Date: 13th October, 2025",
+      faculty: "",
+      features: [
+        "Weekly Targets (subdivided into daily targets)",
+        "Sources from which to be ready, also mentioned",
+        "Students encouraged to revise from their existing notes (Additional study material given on demand)",
+        "Weekly Tests (5 Mains questions + 50 Prelims questions)",
+        "Answers evaluated and feedback given",
+        "Group Session for Test Discussion",
+        "Prelims and Mains integrated for every subject",
+        "One subject at a time",
+        "Practice Tests and FLTs given on demand",
+        "Mains Tests written of another institution also evaluated",
+        "Mentor available on call and message for doubt clearance",
+        "Subject Specific Mentors",
+        "Strategy sessions and overall guidance by Super Mentors Aman Soni Sir and Ravi Pathak Sir",
       ],
     },
   ];
@@ -389,8 +442,11 @@ const Courses = () => {
                         key={index}
                         className="flex items-start text-gray-600"
                       >
-                        <FaCheckCircle className="text-[#2ECC40] mt-1 mr-2" />
-                        <span>{feature}</span>
+                        <FaCheckCircle
+                          size={14} // fixed size
+                          className="text-[#2ECC40] mt-1 mr-2 flex-shrink-0"
+                        />
+                        {feature}
                       </li>
                     ))}
                   </ul>

@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import NeevnLogo from "../assets/images/Neenv-IAS.png";
 
 const Footer = () => {
@@ -78,16 +79,36 @@ const Footer = () => {
               </a>
             </div> */}
             <div className="flex space-x-3">
-              <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition">
+              <a
+                href="https://www.facebook.com/share/14JVZbKhEmW/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition"
+              >
                 <FaFacebookF size={22} />
               </a>
-              <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white transition">
-                <FaTwitter size={22} />
+              <a
+                href="https://x.com/amansoni0907?t=UbljtlnD-pEOo98l9Zxxaw&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#000000] hover:bg-[#000] hover:text-white transition"
+              >
+                <FaXTwitter size={22} />
               </a>
-              <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition">
+              <a
+                href="https://www.instagram.com/amansoni0907?igsh=NmNhMndpZXBuZ2Jv"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition"
+              >
                 <FaInstagram size={22} />
               </a>
-              <a className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition">
+              <a
+                href="https://youtube.com/playlist?list=PLsL82bR4GX4yxkO_H5orTADxfqm9ghVyG&si=aZP-Py7fKjD2lFpA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition"
+              >
                 <FaYoutube size={22} />
               </a>
             </div>
@@ -212,18 +233,17 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Neenv IAS. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a
-                href="#"
-                className="text-gray-500 hover:text-white transition-colors"
-              >
-                Privacy Policy
-              </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-white transition-colors"
-              >
-                Terms of Service
-              </a>
+              <p className="text-gray-500 mb-4 md:mb-0">
+                Developed by{" "}
+                <a
+                  href="https://mannschaftit.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#2ECC40] hover:underline"
+                >
+                  Mannschaft Infotech
+                </a>
+              </p>
             </div>
           </div>
         </div>
