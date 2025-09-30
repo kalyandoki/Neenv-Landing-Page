@@ -88,7 +88,7 @@ const Footer = () => {
                 <FaFacebookF size={22} />
               </a>
               <a
-                href="https://x.com/amansoni0907?t=UbljtlnD-pEOo98l9Zxxaw&s=09"
+                href="https://x.com/NeenvIAS?t=jXHUuRqBvyNJyJZjY2bsDA&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#000000] hover:bg-[#000] hover:text-white transition"
@@ -96,7 +96,7 @@ const Footer = () => {
                 <FaXTwitter size={22} />
               </a>
               <a
-                href="https://www.instagram.com/amansoni0907?igsh=NmNhMndpZXBuZ2Jv"
+                href="https://www.instagram.com/neenvias19?igsh=bGdiZW96ZnFnN2Vt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition"
@@ -104,7 +104,7 @@ const Footer = () => {
                 <FaInstagram size={22} />
               </a>
               <a
-                href="https://youtube.com/playlist?list=PLsL82bR4GX4yxkO_H5orTADxfqm9ghVyG&si=aZP-Py7fKjD2lFpA"
+                href="https://youtube.com/@neenvias?si=_rDfd__FDGY8wdCH"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000] hover:text-white transition"

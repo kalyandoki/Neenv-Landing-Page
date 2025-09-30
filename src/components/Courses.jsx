@@ -14,7 +14,7 @@ const Courses = () => {
   const courses = [
     {
       id: 1,
-      title: "Disha GS Mentorship program",
+      title: "Disha GS Mentorship Program",
       category: "gs",
       price: "1000/-",
       duration: "Starting Date: 13th October, 2025",
@@ -43,8 +43,8 @@ const Courses = () => {
       duration: "Starting Date: 13th October, 2025",
       faculty: "",
       features: [
-        "Daily Study Targets+ recommended sources for each target.",
-        "Daily MCQ test of 50 ques ,followed by detailed discussion on each question.",
+        "Daily Study Targets + Recommended sources for each target.",
+        "Daily MCQ test of 50 ques , followed by detailed discussion on each question.",
         "Revision of one subject at a time.",
       ],
     },
@@ -101,7 +101,7 @@ const Courses = () => {
       faculty: "Subject Experts",
       subjects: "Pub Ad, PSIR, Geography, Anthropology",
       features: [
-        "Daily Study Targets plus recommended sources for each target.",
+        "Daily Study Targets + recommended sources for each target.",
         "Daily Answer Writing Practice.",
         "Two questions will be given daily for practice. Out of these two, one ques will be evaluated. Both answers to be discussed after 7 days.",
         "Sectional Test of 10 ques. Will be evaluated and discussed.",

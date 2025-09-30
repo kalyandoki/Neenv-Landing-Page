@@ -111,7 +111,7 @@ const ContactUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="bg-white p-10 rounded-3xl border border-gray-200 shadow-md">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-8 flex items-center">
                 <span className="w-10 h-1 bg-[#D4A017] mr-3 rounded"></span>
                 Get in <span className="ml-2 text-[#D4A017]">Touch</span>
               </h3>
@@ -226,7 +226,7 @@ const ContactUs = () => {
 
             {/* Contact Form */}
             <div className="bg-white p-10 rounded-3xl border border-gray-200 shadow-md">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-8 flex items-center">
                 <span className="w-10 h-1 bg-[#D4A017] mr-3 rounded"></span>
                 Send us a <span className="ml-2 text-[#D4A017]">Message</span>
               </h3>

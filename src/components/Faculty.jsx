@@ -144,7 +144,7 @@ const Faculty = () => {
                     {faculty.tags.map((tag, idx) => (
                       <span
                         key={idx}
-                        className="bg-[#0dcaf0]/10 text-[#0dcaf0] px-3 py-1 rounded-full text-xs font-medium border border-[#0dcaf0]/20"
+                        className="bg-[#2ECC40] text-[#ffffff] px-3 py-1 rounded-full text-xs font-medium border border-[#0dcaf0]/20"
                       >
                         {tag}
                       </span>
