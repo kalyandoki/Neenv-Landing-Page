@@ -13,8 +13,12 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdLocationOn, MdAccessTime } from "react-icons/md";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -30,17 +34,51 @@ const ContactUs = () => {
     }));
   };
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Form submission logic would go here
+  //   alert("Thank you for your message! We will get back to you soon.");
+  //   setFormData({
+  //     name: "",
+  //     email: "",
+  //     phone: "",
+  //     message: "",
+  //   });
+  // };
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Form submission logic would go here
-    alert("Thank you for your message! We will get back to you soon.");
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
+    setLoading(true);
+
+    // Send Email via EmailJS
+    emailjs
+      .send(
+        "service_amzs943",
+        "template_75oxjmk",
+        formData,
+        "lzU4090RrPwQncSrq"
+      )
+      .then(
+        () => {
+          setIsOpen(true);
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+          setLoading(false);
+
+          // Auto close popup after 5 seconds
+          setTimeout(() => setIsOpen(false), 5000);
+        },
+        (error) => {
+          console.error("EmailJS Error:", error.text);
+          setLoading(false);
+          alert("❌ Something went wrong. Please try again.");
+        }
+      );
   };
+  console.log(loading);
 
   return (
     <section
@@ -238,6 +276,19 @@ const ContactUs = () => {
                   Send Message
                 </button>
               </form>
+              {/* Success Popup */}
+              {isOpen && (
+                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-4">
+                  <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl text-center w-full max-w-sm sm:max-w-md md:max-w-lg animate-fade-in">
+                    <h3 className="text-lg sm:text-xl font-semibold text-green-600">
+                      ✅ Form Submitted!
+                    </h3>
+                    <p className="text-gray-600 mt-2 text-sm sm:text-base font-semibold">
+                      Thank you for contacting us. We’ll get back to you soon.
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

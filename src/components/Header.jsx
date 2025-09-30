@@ -85,23 +85,23 @@ const Header = () => {
                   duration={80}
                   onSetActive={() => handleSetActive(item.to)}
                   onClick={closeMenu}
-                  className={`px-4 py-3 font-medium md:text-lg transition-all duration-300 flex items-center cursor-pointer ${
+                  className={`px-4 py-1 font-medium md:text-lg transition-all duration-300 flex items-center cursor-pointer ${
                     activeLink === item.to
-                      ? "text-white  border-b-2 border-[#D4A017]"
+                      ? "text-[#D4A017]"
                       : "text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg"
                   }`}
                 >
                   <span className="flex-1">{item.name}</span>
-                  {/* {activeLink === item.to && (
-                    <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#D4A017] to-[#2ECC40]"></span>
-                  )} */}
+                  {activeLink === item.to && (
+                    <span className="w-3 h-3 rounded-full bg-gradient-to-r from-[#D4A017] to-[#2ECC40] ml-2"></span>
+                  )}
                 </Link>
               ))}
             </nav>
           </div>
 
           {/* CTA Button */}
-          <div className="hidden md:block flex-shrink-0">
+          <div className="hidden lg:block flex-shrink-0">
             <a
               href="https://wa.me/919734548688"
               target="_blank"
