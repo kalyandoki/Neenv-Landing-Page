@@ -10,7 +10,7 @@ import {
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-24 bg-white relative overflow-hidden">
+    <section className="py-24 bg-white relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         <div className="absolute top-16 left-16 w-72 h-72 rounded-full bg-[#D4A017] opacity-10 blur-3xl animate-pulse-slow"></div>
