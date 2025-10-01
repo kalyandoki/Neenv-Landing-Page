@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import NeevnLogo from "../assets/images/Neenv-IAS.png";
+import ThreadsLogo from "../assets/images/Threads.webp";
 
 const Footer = () => {
   return (
@@ -80,12 +81,13 @@ const Footer = () => {
             </div> */}
             <div className="flex space-x-3">
               <a
-                // href="https://www.facebook.com/share/14JVZbKhEmW/"
-                // target="_blank"
-                // rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition"
+                href="https://www.threads.com/@neenvias19"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#efededc3] hover:text-white transition"
               >
-                <FaFacebookF size={22} />
+                {/* <FaFacebookF size={22} /> */}
+                <img src={ThreadsLogo} alt="Threads" className="w-8 h-8" />
               </a>
               <a
                 href="https://x.com/NeenvIAS?t=jXHUuRqBvyNJyJZjY2bsDA&s=09"

@@ -16,7 +16,7 @@ const Courses = () => {
       id: 1,
       title: "Disha GS Mentorship Program",
       category: "gs",
-      price: "1000/-",
+      price: "₹1000/month",
       duration: "Starting Date: 13th October, 2025",
       faculty: "",
       features: [
@@ -39,7 +39,7 @@ const Courses = () => {
       id: 2,
       title: "IPP (Intensive Prelims Practice)",
       category: "gs",
-      price: "500/-",
+      price: "₹500/month",
       duration: "Starting Date: 13th October, 2025",
       faculty: "",
       features: [
@@ -52,7 +52,7 @@ const Courses = () => {
       id: 3,
       title: "DAP (Daily Answer Writing Practice)",
       category: "gs",
-      price: "1000/-",
+      price: "₹1000/month",
       duration: "Starting Date: 13th October, 2025",
       faculty: "",
       features: [
@@ -68,7 +68,7 @@ const Courses = () => {
       id: 4,
       title: "Polity GS Module",
       category: "gs",
-      price: "1999/-",
+      price: "₹1999/-",
       duration: "Starting Date: 13 October, 2025",
       faculty: "",
       features: [
@@ -82,7 +82,7 @@ const Courses = () => {
       id: 5,
       title: "Economy GS Module",
       category: "gs",
-      price: "1999/-",
+      price: "₹1999/-",
       duration: "Starting Date: 13th October, 2025",
       faculty: "",
       features: [
@@ -96,7 +96,7 @@ const Courses = () => {
       id: 6,
       title: "Optional Mentorship",
       category: "optional",
-      price: "1999/-",
+      price: "₹1999/-",
       duration: "Oct 13, 2025 - Jan 20, 2026",
       faculty: "Subject Experts",
       subjects: "Pub Ad, PSIR, Geography, Anthropology",
@@ -112,7 +112,7 @@ const Courses = () => {
       id: 7,
       title: "Current Affairs Program",
       category: "current",
-      price: "4999/-",
+      price: "₹4999/-",
       duration: "11 Oct, 2025 - 15 Aug, 2026",
       faculty: "Ravi Pathak and Aman Soni",
       features: [
@@ -383,7 +383,7 @@ const Courses = () => {
                   <h3 className="text-lg lg:text-xl font-bold text-gray-900 transition-colors">
                     {course.title}
                   </h3>
-                  <span className="bg-[#2ECC40] text-white px-3 py-1 rounded-full text-sm font-bold shadow-sm">
+                  <span className="bg-[#2ECC40] text-white px-3 py-1 rounded-full text-md font-bold shadow-sm text-center">
                     {course.price}
                   </span>
                 </div>
