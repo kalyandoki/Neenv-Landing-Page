@@ -14,6 +14,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { MdLocationOn, MdAccessTime } from "react-icons/md";
 import emailjs from "@emailjs/browser";
+import ThreadsLogo from "../assets/images/Threads.webp";
 
 const ContactUs = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -189,12 +190,13 @@ const ContactUs = () => {
                 </h4>
                 <div className="flex space-x-3">
                   <a
-                    href="https://www.facebook.com/share/14JVZbKhEmW/"
+                    href="https://www.threads.com/@neenvias19"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#1877F2] hover:text-white transition"
+                    className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#1877F2] hover:bg-[#efededc3] hover:text-white transition"
                   >
-                    <FaFacebookF size={22} />
+                    {/* <FaFacebookF size={22} /> */}
+                    <img src={ThreadsLogo} alt="Threads" className="w-8 h-8" />
                   </a>
                   <a
                     href="https://x.com/amansoni0907?t=UbljtlnD-pEOo98l9Zxxaw&s=09"
