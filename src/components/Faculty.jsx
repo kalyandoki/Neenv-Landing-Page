@@ -18,16 +18,20 @@ const Faculty = () => {
       instagramUrl:
         "https://www.instagram.com/amansoni0907?igsh=NmNhMndpZXBuZ2Jv",
       tags: ["Economics Expert", "Current Affairs Specialist"],
+      details:
+        "Faculty at Shubhra Ranjan IAS Delhi, ALS IAS Delhi, La Ex Hyderabad",
     },
     {
       name: "Ravi Pathak",
       subjects: "Polity, Current Affairs, Pub Ad Optional",
       experience: "20 Years",
       image: img1,
-      // twitterUrl: "",
+      twitterUrl: "https://x.com/RaviPathak65142?t=6kSYeAuZkXGwoVw98O6U9A&s=08",
       // youtubeUrl: "",
-      // instagramUrl: "",
+      instagramUrl:
+        "https://www.instagram.com/ravipathak27?igsh=MXB3emh0Z20xdDFmZg==",
       tags: ["Polity Expert", "Public Administration"],
+      details: "Faculty at IIT Bombay Alumnus, Ex-Drishti IAS, Ex-Raus IAS",
     },
     {
       name: "Sandeep Mahajan",
@@ -38,6 +42,7 @@ const Faculty = () => {
       // youtubeUrl: "",
       // instagramUrl: "",
       tags: ["PSIR Specialist"],
+      details: "Faculty at La Ex Hyderabad, AKS IAS Hyderabad, Ex-Byjus",
     },
   ];
 
@@ -95,6 +100,9 @@ const Faculty = () => {
                   </h3>
                   <p className="text-[#D4A017]/90 text-sm">
                     {faculty.subjects}
+                  </p>
+                  <p className="text-[#ffffff] text-xs mt-1">
+                    {faculty.details}
                   </p>
                 </div>
               </div>

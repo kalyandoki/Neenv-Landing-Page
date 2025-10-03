@@ -9,6 +9,7 @@ import {
   FaPhone,
   FaWhatsapp,
   FaMapMarkerAlt,
+  FaTelegramPlane,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import NeevnLogo from "../assets/images/Neenv-IAS.png";
@@ -88,6 +89,14 @@ const Footer = () => {
               >
                 {/* <FaFacebookF size={22} /> */}
                 <img src={ThreadsLogo} alt="Threads" className="w-8 h-8" />
+              </a>
+              <a
+                href="https://t.me/NEENVIAS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#0088cc] hover:bg-[#0088cc] hover:text-white transition"
+              >
+                <FaTelegramPlane size={22} />
               </a>
               <a
                 href="https://x.com/NeenvIAS?t=jXHUuRqBvyNJyJZjY2bsDA&s=09"

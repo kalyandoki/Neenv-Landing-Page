@@ -7,6 +7,7 @@ import {
   FaPaperPlane,
   FaFacebookF,
   FaTwitter,
+  FaTelegramPlane,
   FaInstagram,
   FaYoutube,
   FaCommentAlt,
@@ -197,6 +198,14 @@ const ContactUs = () => {
                   >
                     {/* <FaFacebookF size={22} /> */}
                     <img src={ThreadsLogo} alt="Threads" className="w-8 h-8" />
+                  </a>
+                  <a
+                    href="https://t.me/NEENVIAS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-[#0088cc] hover:bg-[#0088cc] hover:text-white transition"
+                  >
+                    <FaTelegramPlane size={22} />
                   </a>
                   <a
                     href="https://x.com/amansoni0907?t=UbljtlnD-pEOo98l9Zxxaw&s=09"

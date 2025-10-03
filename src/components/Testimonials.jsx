@@ -13,6 +13,7 @@ import img5 from "../assets/test/jithin.jpg";
 import img6 from "../assets/test/divya.jpg";
 import img7 from "../assets/test/ashish.jpg";
 import img8 from "../assets/test/muhammad.jpg";
+import img9 from "../assets/test/sh-img.jpg";
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -88,6 +89,15 @@ const Testimonials = () => {
       content:
         "Being from an engineering background, I had no prior knowledge of economics. Aman Soni Sir's classes helped me build a strong foundation. I used his notes and cleared UPSC. Thank you, sir!",
       image: img8,
+      type: "image",
+    },
+    {
+      id: 9,
+      name: "Shweta K Sugathan",
+      role: "AIR-461 UPSC CSE 2018 , AIR-34 INDIAN FOREST SERVICE 2018",
+      content:
+        "I was initially very weak in Economics. Before joining the classes, I had tried to prepare the subject on my own and had terribly failed at that. Aman sir literally became a Saviour for me. Sir explained all the concepts beautifully using simple examples and made the subject really interesting. He used to clear even the silliest doubts we had.",
+      image: img9,
       type: "image",
     },
     // {
@@ -190,13 +200,13 @@ const Testimonials = () => {
           {/* Navigation Buttons */}
           <button
             onClick={prevTestimonial}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-14 h-14 rounded-full flex items-center justify-center bg-yellow-400 text-black hover:bg-green-500 transition duration-300 shadow-lg"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-[#D4A017] text-black hover:bg-green-500 transition duration-300 shadow-lg"
           >
             <FaChevronLeft />
           </button>
           <button
             onClick={nextTestimonial}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-14 h-14 rounded-full flex items-center justify-center bg-yellow-400 text-black hover:bg-green-500 transition duration-300 shadow-lg"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-[#D4A017] text-black hover:bg-green-500 transition duration-300 shadow-lg"
           >
             <FaChevronRight />
           </button>

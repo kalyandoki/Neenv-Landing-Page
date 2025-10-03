@@ -70,7 +70,8 @@ const Courses = () => {
       category: "gs",
       price: "₹1999/-",
       duration: "Starting Date: 13 October, 2025",
-      faculty: "",
+
+      faculty: "Ravi Pathak",
       features: [
         "Discussion of Complete Polity and Governance from Pre and Mains perspective.",
         "Discussion of Pre and Mains PYQs along with the chapters.",
@@ -84,7 +85,7 @@ const Courses = () => {
       category: "gs",
       price: "₹1999/-",
       duration: "Starting Date: 13th October, 2025",
-      faculty: "",
+      faculty: "Aman Soni",
       features: [
         "Discussion of complete Economy from Pre and Mains perspective.",
         "Discussion of Pre and Mains PYQs along with the chapters.",
