@@ -68,7 +68,7 @@ const Courses = () => {
       id: 4,
       title: "Polity GS Module",
       category: "gs",
-      price: "₹1999/-",
+      price: "₹4999/-",
       duration: "Starting Date: 13 October, 2025",
 
       faculty: "Ravi Pathak",
@@ -83,7 +83,7 @@ const Courses = () => {
       id: 5,
       title: "Economy GS Module",
       category: "gs",
-      price: "₹1999/-",
+      price: "₹4999/-",
       duration: "Starting Date: 13th October, 2025",
       faculty: "Aman Soni",
       features: [
@@ -100,7 +100,7 @@ const Courses = () => {
       price: "₹1999/-",
       duration: "Oct 13, 2025 - Jan 20, 2026",
       faculty: "Subject Experts",
-      subjects: "Pub Ad, PSIR, Geography, Anthropology",
+      subjects: "Pub Ad, PSIR, Geography",
       features: [
         "Daily Study Targets + recommended sources for each target.",
         "Daily Answer Writing Practice.",
@@ -389,14 +389,14 @@ const Courses = () => {
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-4">
-                  {course.duration && (
+                  {/* {course.duration && (
                     <div className="flex items-center text-gray-600">
                       <div className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center mr-2">
                         <FaCalendarAlt className="text-[#D4A017]" />
                       </div>
                       <span className="text-sm">{course.duration}</span>
                     </div>
-                  )}
+                  )} */}
                   {course.faculty && (
                     <div className="flex items-center text-gray-600">
                       <div className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center mr-2">
