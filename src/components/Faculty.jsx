@@ -3,6 +3,9 @@ import { FaBriefcase, FaInstagram, FaYoutube } from "react-icons/fa";
 import img1 from "../assets/images/as-sir1.png";
 import img2 from "../assets/images/ravi-sir1.png";
 import img3 from "../assets/images/sm-sir1.png";
+import img4 from "../assets/images/meghraj.png";
+import img5 from "../assets/images/rajdeep.png";
+import img6 from "../assets/images/kritti.png";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Faculty = () => {
@@ -43,6 +46,39 @@ const Faculty = () => {
       // instagramUrl: "",
       tags: ["PSIR Specialist"],
       details: "Faculty at La Ex Hyderabad, AKS IAS Hyderabad, Ex-Byjus",
+    },
+    {
+      name: "Meghraj",
+      subjects: "History",
+      experience: "7 years",
+      image: img4, // replace with correct image variable
+      // twitterUrl: "",
+      // youtubeUrl: "",
+      // instagramUrl: "",
+      tags: ["History Specialist"],
+      details: "Faculty at Shubhra Ranjan IAS, Forum IAS, StudyIQ, Sankalp IAS",
+    },
+    {
+      name: "Rajdeep Chandrakar",
+      subjects: "Geography, Environment, Sci Tech",
+      experience: "5 years",
+      image: img5, // replace with correct image variable
+      // twitterUrl: "",
+      // youtubeUrl: "",
+      // instagramUrl: "",
+      tags: ["Geography Specialist"],
+      details: "Faculty at Abhimanu IAS Chandigarh, Ex-ALS IAS Delhi",
+    },
+    {
+      name: "Krittika",
+      subjects: "Social Issues and Justice, Ethics",
+      experience: "3 years", // add years if you have it
+      image: img6, // replace with correct image variable
+      // twitterUrl: "",
+      // youtubeUrl: "",
+      // instagramUrl: "",
+      tags: ["Ethics & Social Issues Specialist"],
+      details: "Faculty at Ambition IAS, Zenstudy",
     },
   ];
 
