@@ -6,6 +6,7 @@ import img3 from "../assets/images/sm-sir1.png";
 import img4 from "../assets/images/meghraj.png";
 import img5 from "../assets/images/rajdeep.png";
 import img6 from "../assets/images/kritti.png";
+import img7 from "../assets/images/gajanan.jpg";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Faculty = () => {
@@ -46,6 +47,17 @@ const Faculty = () => {
       // instagramUrl: "",
       tags: ["PSIR Specialist"],
       details: "Faculty at La Ex Hyderabad, AKS IAS Hyderabad, Ex-Byjus",
+    },
+    {
+      name: "Gajanan Dwivedi",
+      subjects: "History",
+      experience: "15 years",
+      image: img7, // replace with correct image variable
+      // twitterUrl: "",
+      // youtubeUrl: "",
+      // instagramUrl: "",
+      tags: ["Senior History Faculty"],
+      details: "Ex Raus IAS",
     },
     {
       name: "Meghraj",
